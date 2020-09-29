@@ -1,0 +1,46 @@
+kaggle competitions download -c mf-accelerator
+
+contest_test.csv
+contest_train.csv
+sample_subm.csv
+
+training_variants = pd.read_csv('/kaggle/input/msk-redefining-cancer-treatment/contest_test.csv')
+
+https://www.kaggle.com/c/mf-accelerator/data
+
+
+data = pd.read_csv('/kaggle/mf-accelerator/data/contest_train.csv')
+
+df.drop (columns = ['C', 'D'])
+df.drop(['C', 'D'], axis = 1) 
+
+'subsample': 0.5
+eta = 0.07,
+
+param <- list(booster = "dart", 
+              max.depth = 4, 
+              eta = 0.07, 
+              gamma = 0.01, 
+              subsample = 0.6, 
+              colsample_bytree = 0.7, 
+              min_child_weight = 4, 
+              objective = "reg:linear", 
+              eval_metric = "rmse")
+set.seed(100)
+
+param <- list(booster = "gbtree", 
+              max.depth = 4, 
+              eta = 0.07, 
+              gamma = 0, 
+              subsample = 0.5, 
+              colsample_bytree = 0.8, 
+              min_child_weight = 3, 
+              objective = "reg:linear", 
+              eval_metric = "rmse")
+			  
+			  
+eta = 0.07,
+colsample_bytree = 0.8,
+'learning_rate' : 0.05,
+'learning_rate' : 0.01, УБИВАЕТ КОМП!!! НЕ СТАВЬ!!!
+			  
